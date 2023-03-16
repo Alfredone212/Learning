@@ -19,6 +19,7 @@
         */
         const n = 5;
         // ^cannot be reassigned
+        const mell = "Shmello";
         const milk = {flavour:"Strawberry", type:"Full Fat", price:2.50};
         const cars = ["Volvo", "BMW"];
         cars[0] = "Ferrari";
@@ -37,6 +38,12 @@
             return "Hello";
         }
         //alert(milk.flavour + " Is yummy & costs " + milk.price)
+        let l = mell.length;
+        //alert(l)
+        //alert("We are\"vikings\"")
+        // The Backslash is an escape character that allows a "" in ""
+        // Slicing for getting number include whitespace
+        mell.replace("Shmello", "Trello");
         
         document.getElementById("smeno").innerHTML = p;
         document.getElementById("demo").innerHTML = hero();
