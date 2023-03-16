@@ -3,6 +3,13 @@
     <h1>Nahh Man</h1>
 
     <p id="smeno"></p>
+    <p id="demo"></p>
+    <p id="plen"></p>
+    <br>
+    <p id="men"></p>
+
+    <button onclick="document.getElementById('men').innerHTML = hero();">WoW</button>
+    <button onmouseover="this.style.backgroundColor = 'Red'">Colour changing</button>
 
     <script>
         // wowowowowo
@@ -11,6 +18,10 @@
         If you think the value of the variable can change, use let.
         */
         const n = 5;
+        const milk = {flavour:"Strawberry", type:"Full Fat", price:2.50};
+        const cars = ["Volvo", "BMW"];
+        cars[0] = "Ferrari";
+        cars.push("Ford");
         // ^cannot be reassigned
         let p = n + 6;  
         // ^Cannot be redeclared
@@ -21,9 +32,15 @@
         //x *= y;
         //alert(x);
         //^Onscreen popup
-
+        function hero() {
+            return "Hello";
+        }
+        milk.flavour
+        //alert(milk.flavour + " Is yummy & costs " + milk.price)
         
         document.getElementById("smeno").innerHTML = p;
+        document.getElementById("demo").innerHTML = hero();
+        document.getElementById("plen").innerHTML = milk.flavour;
     </script>
  
 </html>
