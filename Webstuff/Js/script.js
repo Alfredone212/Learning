@@ -5,6 +5,7 @@ If you think the value of the variable can change, use let.
 */
 const n = 5
 // ^cannot be reassigned
+
 const mell = "Shmello"
 const milk = {flavour:"Strawberry", type:"Full Fat", price:2.50}
 const cars = ["Volvo", "BMW"]
@@ -14,6 +15,7 @@ cars.push("Ford")
         
 let p = n + 6
 // ^Cannot be redeclared
+
 var firstName = "John", lastName = "Paul", age = 26
 x = 10
 y = 5
