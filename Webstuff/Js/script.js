@@ -57,6 +57,9 @@ cars.reverse()
 
 const dat = new Date()
 // ^Grabs the current date from the browser and you make it show certain dates
+const year = dat.getFullYear()
+const month = dat.getMonth()
+const hours = dat.setMilliseconds(142)
         
 
 
