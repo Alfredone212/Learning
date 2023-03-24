@@ -65,3 +65,5 @@ document.getElementById("demo").innerHTML = hero()
 document.getElementById("plen").innerHTML = milk.flavour
 document.getElementById("stra").innerHTML = cars.toString()
 document.getElementById("date").innerHTML = dat
+// ^Searches for elements which have the specified id tag and replace them with the defined
+// option
